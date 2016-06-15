@@ -1,0 +1,38 @@
+{
+	"isArchBasedImage": false,
+	"isLanguageSpecificImage": true,
+	"supportedDevice": [
+		"raspberrypi",
+		"raspberrypi2"
+	],
+	"supportedDistro": {
+		"debian": {
+			"variant": {
+				"origin": {
+					"template": "Dockerfile.tpl",
+					"requiredFile": ["Dockerfile.tpl"]
+				},
+				"slim": {
+					"template": "Dockerfile.tpl",
+					"requiredFile": ["Dockerfile.tpl"]
+				}
+			}
+		}
+	},
+	"binaryVersion": [
+		"default",
+		"0.10.45",
+		"4.4.5"
+	],
+	"patch": {
+		"raspberrypi-debian": {
+			"description": "",
+			"variant": {
+				"slim": {
+					"template": "",
+					"supportingFile": ""
+				}
+			}
+		}
+	}
+}

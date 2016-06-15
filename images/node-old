@@ -1,0 +1,44 @@
+{
+	"variables": [
+		"distro",
+		"device",
+		"node-version",
+		"python-version"
+	],
+	"path": "node/$device/$distro",
+	"template": {
+		"debian": "",
+		"alpine": ""
+	},
+	"version": [
+		"default",
+		"0.10.45",
+		"0.12.14",
+		"4.4.5",
+		"5.5.1",
+		"6.2.1"
+	],
+	"variant": [
+		{
+			"name": "onbuild",
+			"template": {
+				"debian": "",
+				"alpine": ""
+			}
+		},
+		{
+			"name": "slim",
+			"template": {
+				"debian": "",
+				"alpine": ""
+			}
+		},
+		{
+			"name": "wheezy",
+			"template": {
+				"debian": "",
+				"alpine": ""
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"raspberrypi": {
+		"arch": {
+			"debian": "armv6hf",
+			"alpine": "armhf"
+		}
+	},
+	"raspberrypi2": {
+		"arch": {
+			"debian": "armv7hf",
+			"alpine": "armhf"
+		}
+	}
+}
